@@ -1,0 +1,21 @@
+{
+  "@context": ["https://openbadgespec.org/v2/context.json",
+              "https://w3id.org/blockcerts/schema/2.0-alpha/context.json"],
+  "id": "https://w3id.org/blockcerts/samples/2.0-alpha/issuerTestnet.json",
+  "name": "Issuer Institution Name",
+  "url": "https://www.blockcerts.org",
+  "publicKeys": [
+    {
+      "created": "2016-01-03T14:34:57+0000",
+      "revoked": "2016-05-01T18:11:19+0000",
+      "publicKey": "ecdsa-koblitz-pubkey:mkAvTwCYUyVk3rncFVCTJt1HUDsApVezhP"
+    },
+    {
+      "created": "2017-01-03T14:34:57+0000",
+      "publicKey": "ecdsa-koblitz-pubkey:msBCHdwaQ7N2ypBYupkp6uNxtr9Pg76imj"
+    }
+  ],
+  "revocationList": "https://w3id.org/blockcerts/samples/2.0-alpha/revocationList.json",
+  "type": "Profile",
+  "email": "contact@issuer.org"
+}
