@@ -4,6 +4,10 @@
   "type": "RevocationList",
   "issuer": "https://w3id.org/blockcerts/samples/2.0/issuer-testnet.json",
   "revokedAssertions": [
+    {
+      "id": "urn:uuid:51f2104f-20f3-4e3d-8838-4ee4fb5a0222",
+      "revocationReason": "Honor code violation"
+    }
    
   ]
 }
