@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Assertion schema",
-  "description": "Blockcerts 2.0 Assertion schema. Extends Open Badges v2.0 schema: https://w3id.org/openbadges#Assertion",
+  "description": "proof of income schema",
   "type": "object",
   "definitions": {
     "JsonLdContext": {
@@ -166,7 +166,56 @@
       "$ref": "https://w3id.org/blockcerts/schema/2.0/signatureLineSchema.json"
     },
     "ProofOfIncome": {
-      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/incomeSchema.json"
+      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/incomeSchema.json",
+      "type":"object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "birthDay": {
+          "type": "string"
+        },
+        "taxYear": {
+          "type": "string"
+        },
+        "taxProvince": {
+          "type": "string"
+        },
+        "assessmentDate": {
+          "type": "string"
+        },
+        "sin": {
+          "type": "string"
+        },
+        "martialStat": {
+          "type": "string"
+        },
+        "fillingDate": {
+          "type": "string"
+        },
+        "resProvince": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "id",
+        "birthDay",
+        "taxYear",
+        "taxProvince",
+        "assessmentDate",
+        "sin",
+        "martialStat",
+        "fillingDate",
+        "resProvince",
+        "address"
+      ]
     },
     "RecipientProfile": {
       "$ref": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
@@ -223,7 +272,7 @@
       "$ref": "#/definitions/RecipientProfile"
     },
     "proofOfIncome": {
-      "$ref": "proofOfIncome"
+      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json"
     },
     "signature": {
       "$ref": "#/definitions/MerkleProof2017"
