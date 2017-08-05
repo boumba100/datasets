@@ -272,7 +272,7 @@
       "$ref": "#/definitions/RecipientProfile"
     },
     "proofOfIncome": {
-      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json"
+      "$ref": "#/definitions/proofOfIncome"
     },
     "signature": {
       "$ref": "#/definitions/MerkleProof2017"
