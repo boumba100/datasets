@@ -13,7 +13,7 @@
     
     "MerkleProof2017": "sec:MerkleProof2017",
     
-    "ProofOfIncome": "nb:ProofOfIncome",
+    "ProofOfIncome": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json",
     "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
