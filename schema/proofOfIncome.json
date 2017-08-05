@@ -1,5 +1,5 @@
 {
-  "title": "proofOfIncome schema",
+  "title": "ProofOfIncome schema",
   "type": "object",
   "required": [
     "description",
@@ -16,10 +16,12 @@
   ],
   "properties": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "description of document"
     },
     "id": {
-      "type": "string"
+      "type": "string",
+      "description":"document id"
     },
     "birthDay": {
       "type": "string"
