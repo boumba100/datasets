@@ -15,6 +15,7 @@
     "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
+    "ProofOfIncome": "nb:ProofOfIncome"
     
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
