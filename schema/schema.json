@@ -223,7 +223,7 @@
       "$ref": "#/definitions/RecipientProfile"
     },
     "proofOfIncome": {
-      "$ref": "proof of income"
+      "$ref": "proofOfIncome"
     },
     "signature": {
       "$ref": "#/definitions/MerkleProof2017"
