@@ -16,12 +16,11 @@
   ],
   "properties": {
     "description": {
-      "type": "string",
-      "description": "description of document"
+      "type": "string"
     },
     "id": {
       "type": "string",
-      "description":"document id"
+      "format": "uri"
     },
     "birthDay": {
       "type": "string"
