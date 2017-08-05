@@ -25,6 +25,7 @@
       "description": "description"
     },
     "birthDay": {
+      "@id": "birthDay",
       "type": "string",
       "description": "description"
     },
