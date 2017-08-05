@@ -1,0 +1,52 @@
+{
+  "title": "ProofOfIncome schema",
+  "type": "object",
+  "required": [
+    "description",
+    "id",
+    "birthDay",
+    "taxYear",
+    "taxProvince",
+    "assessmentDate",
+    "sin",
+    "martialStat",
+    "fillingDate",
+    "resProvince",
+    "address"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "birthDay": {
+      "type": "string"
+    },
+    "taxYear": {
+      "type": "string"
+    },
+    "taxProvince": {
+      "type": "string"
+    },
+    "assessmentDate": {
+      "type": "string"
+    },
+    "sin": {
+      "type": "string"
+    },
+    "martialStat": {
+      "type": "string"
+    },
+    "fillingDate": {
+      "type": "string"
+    },
+    "resProvince": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
