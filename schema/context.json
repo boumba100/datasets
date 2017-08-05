@@ -3,100 +3,41 @@
     "id": "@id",
     "type": "@type",
     "bc": "https://w3id.org/blockcerts#",
-    "nb": "https://raw.githubusercontent.com/boumba100/test_data/master/schema",
     "obi": "https://w3id.org/openbadges#",
     "cp": "https://w3id.org/chainpoint#",
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    
     "MerkleProof2017": "sec:MerkleProof2017",
-    "ProofOfIncome": "nb:#ProofOfIncome",
+    
     "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
-    "proofOfIncome": "nb:/proofOfIncome.json",
+    
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
-    "introductionUrl": {
-      "@id": "bc:introductionUrl",
-      "@type": "@id"
-    },
-    "incomeProof": {
-      "title": "ProofOfIncome schema",
-      "type": "object",
-      "required": [
-        "description",
-        "id",
-        "birthDay",
-        "taxYear",
-        "taxProvince",
-        "assessmentDate",
-        "sin",
-        "martialStat",
-        "fillingDate",
-        "resProvince",
-        "address"
-      ],
-      "properties": {
-        "description": {
-          "type": "string"
-        },
-        "id": {
-          "type": "string"
-        },
-        "birthDay": {
-          "type": "string"
-        },
-        "taxYear": {
-          "type": "string"
-        },
-        "taxProvince": {
-          "type": "string"
-        },
-        "assessmentDate": {
-          "type": "string"
-        },
-        "sin": {
-          "type": "string"
-        },
-        "martialStat": {
-          "type": "string"
-        },
-        "fillingDate": {
-          "type": "string"
-        },
-        "resProvince": {
-          "type": "string"
-        },
-        "address": {
-          "type": "string"
-        }
-      }
-    },
-    "income": {
-      "@id": "http://schema.org/spouse",
-      "@type": "@id"
-    },
+    "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
+    
     "subtitle": "bc:subtitle",
+    
     "jobTitle": "schema:jobTitle",
+    
+    "creator": { "@id": "dc:creator", "@type": "@id" },
     "expires": {
       "@id": "sec:expiration",
       "@type": "xsd:dateTime"
     },
     "revoked": {
-      "@id": "obi:revoked",
-      "@type": "xsd:boolean"
+      "@id": "sec:expiration",
+      "@type": "xsd:dateTime"
     },
     "CryptographicKey": "sec:Key",
-    "signature": "sec:signature",
-    "verification": {
-      "@id": "obi:verify",
-      "@type": "@id"
-    },
-    "publicKey": {
-      "@id": "sec:publicKey",
-      "@type": "@id"
-    },
+    "signature": "sec:signature", 
+    
+    "verification": "bc:verification",
+    "publicKeys": "bc:publicKeys",
+    
     "ChainpointSHA256v2": "cp:ChainpointSHA256v2",
     "BTCOpReturn": "cp:BTCOpReturn",
     "targetHash": "cp:targetHash",
@@ -106,5 +47,19 @@
     "sourceId": "cp:sourceId",
     "right": "cp:right",
     "left": "cp:left"
-  }
+  },
+  "obi:validation": [
+    {
+      "obi:validatesType": "RecipientProfile",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0-alpha/recipientSchema.json"
+    },
+    {
+      "obi:validatesType": "SignatureLine",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0-alpha/signatureLineSchema.json"
+    },
+    {
+      "obi:validatesType": "MerkleProof2017",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0-alpha/merkleProof2017Schema.json"
+    }
+  ]
 }
