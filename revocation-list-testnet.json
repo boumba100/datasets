@@ -7,6 +7,11 @@
     {
       "id": "urn:uuid:8260463a-6a60-4cfd-9481-bf935d4cffdb",
       "revocationReason": "Honor code violation"
+    },
+    
+    {
+      "id": "urn:uuid:51f2104f-20f3-4e3d-8838-4ee4fb5a0243",
+      "revocationReason": "Issuing error"
     }
    
   ]
