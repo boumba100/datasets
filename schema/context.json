@@ -12,7 +12,6 @@
     
     "MerkleProof2017": "sec:MerkleProof2017",
     
-    "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
     "ProofOfIncome": "nb:ProofOfIncome"
