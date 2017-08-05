@@ -25,7 +25,7 @@
       "description": "description"
     },
     "birthDay": {
-      "@id": "http://xmlns.com/foaf/0.1/text",
+      "@id": "http://xmlns.com/foaf/0.1/birthDay",
       "@type": "@id"
     },
     "taxYear": {
