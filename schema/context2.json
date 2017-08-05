@@ -71,7 +71,7 @@
       "spouse":
       {
          "@id": "http://schema.org/spouse",
-         "@type": "@string"
+         "@type": "@id"
       },
       "telephone": "http://schema.org/telephone",
       "Address": "http://www.w3.org/2006/vcard/ns#Address",
