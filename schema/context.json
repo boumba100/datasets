@@ -18,7 +18,7 @@
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
     
-    "proofOfIncome": "nb:/ProofOfIncome.json",
+    "proofOfIncome": "nb:/proofOfIncome.json",
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
