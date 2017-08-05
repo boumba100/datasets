@@ -23,6 +23,12 @@
     "signatureLines": "bc:signatureLines",
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
     
+    "spouse":
+      {
+         "@id": "http://schema.org/spouse",
+         "@type": "@id"
+      },
+    
     "subtitle": "bc:subtitle",
     
     "jobTitle": "schema:jobTitle",
