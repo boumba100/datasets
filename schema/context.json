@@ -13,12 +13,11 @@
     
     "MerkleProof2017": "sec:MerkleProof2017",
     
-    "ProofOfIncome": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json",
+    "ProofOfIncome": "nb:ProofOfIncome",
     "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
     
-    "proofOfIncome": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json",
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
