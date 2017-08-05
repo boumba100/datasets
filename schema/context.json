@@ -9,30 +9,76 @@
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    
-    
     "MerkleProof2017": "sec:MerkleProof2017",
-    
     "ProofOfIncome": "nb:#ProofOfIncome",
     "RecipientProfile": "bc:RecipientProfile",
     "SignatureLine": "bc:SignatureLine",
     "MerkleProofVerification2017": "bc:MerkleProofVerification2017",
-    
     "proofOfIncome": "nb:/proofOfIncome.json",
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
-    "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
-    
-    "spouse":
-      {
-         "@id": "http://schema.org/spouse",
-         "@type": "@id"
-      },
-    
+    "introductionUrl": {
+      "@id": "bc:introductionUrl",
+      "@type": "@id"
+    },
+    "incomeProof": {
+      "title": "ProofOfIncome schema",
+      "type": "object",
+      "required": [
+        "description",
+        "id",
+        "birthDay",
+        "taxYear",
+        "taxProvince",
+        "assessmentDate",
+        "sin",
+        "martialStat",
+        "fillingDate",
+        "resProvince",
+        "address"
+      ],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "birthDay": {
+          "type": "string"
+        },
+        "taxYear": {
+          "type": "string"
+        },
+        "taxProvince": {
+          "type": "string"
+        },
+        "assessmentDate": {
+          "type": "string"
+        },
+        "sin": {
+          "type": "string"
+        },
+        "martialStat": {
+          "type": "string"
+        },
+        "fillingDate": {
+          "type": "string"
+        },
+        "resProvince": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        }
+      }
+    },
+    "income": {
+      "@id": "http://schema.org/spouse",
+      "@type": "@id"
+    },
     "subtitle": "bc:subtitle",
-    
     "jobTitle": "schema:jobTitle",
-
     "expires": {
       "@id": "sec:expiration",
       "@type": "xsd:dateTime"
@@ -51,7 +97,6 @@
       "@id": "sec:publicKey",
       "@type": "@id"
     },
-
     "ChainpointSHA256v2": "cp:ChainpointSHA256v2",
     "BTCOpReturn": "cp:BTCOpReturn",
     "targetHash": "cp:targetHash",
