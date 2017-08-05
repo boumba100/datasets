@@ -55,23 +55,5 @@
     "sourceId": "cp:sourceId",
     "right": "cp:right",
     "left": "cp:left"
-  },
-  "obi:validation": [
-    {
-      "obi:validatesType": "RecipientProfile",
-      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
-    },
-    {
-      "obi:validatesType": "SignatureLine",
-      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/signatureLineSchema.json"
-    },
-    {
-      "obi:validatesType": "MerkleProof2017",
-      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/merkleProof2017Schema.json"
-    },
-     {
-      "obi:validatesType": "object",
-      "obi:validationSchema": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/ProofOfIncome.json"
-    }
-  ]
+  }
 }
