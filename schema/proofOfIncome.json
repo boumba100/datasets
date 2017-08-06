@@ -16,49 +16,39 @@
   ],
   "properties": {
     "description": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "id": {
       "type": "string",
-      "format": "uri",
-      "description": "description"
+      "format": "uri"
     },
     "birthDay": {
       "@id": "http://schema.org/birthDate",
       "@type": "xsd:dateTime"
     },
     "taxYear": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "taxProvince": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "assessmentDate": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "sin": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "martialStat": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "fillingDate": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "resProvince": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     },
     "address": {
-      "type": "string",
-      "description": "description"
+      "type": "string"
     }
   }
 }
