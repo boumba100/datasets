@@ -182,11 +182,14 @@
     "RecipientProfile": {
       "$ref": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
     },
+    "ProofOfIncome": {
+      "$ref": "https://github.com/boumba100/test_data/blob/master/schema/proofOfIncome.json"
+    },
     "MerkleProof2017": {
       "$ref": "https://w3id.org/blockcerts/schema/2.0/merkleProof2017Schema.json"
     },
-    "BadgeClass": {
-      "description": "From https://w3id.org/openbadges#BadgeClass",
+    "IncomeBadgeClass": {
+      "description": "https://github.com/boumba100#BadgeClass",
       "type": "object",
       "properties": {
         "id": {
@@ -253,8 +256,7 @@
         "id",
         "name",
         "description",
-        "issuer",
-        "criteria"
+        "issuer"
       ]
     }
   },
@@ -282,8 +284,12 @@
       "description": "Defined by `recipient` property of https://w3id.org/openbadges#Assertion, with Blockcerts extensions for recipient proof of ownership."
     },
     "badge": {
-      "$ref": "#/definitions/BadgeClass",
+      "$ref": "#/definitions/IncomeBadgeClass",
       "description": "Defined by `badge` property of https://w3id.org/openbadges#Assertion, with Blockcerts extensions for (display) signature images."
+    },
+    "income": {
+      "$ref": "#/definitions/ProofOfIncome",
+      "description": "test proof of income document"
     },
     "verification": {
       "$ref": "#/definitions/VerificationObject",
@@ -322,6 +328,7 @@
     "type",
     "recipient",
     "badge",
+    "income",
     "verification",
     "issuedOn"
   ],
