@@ -50,7 +50,6 @@
       "type": "string",
       "description": "Open Badges SHA-256 Hash",
       "pattern": "^sha256\\$[a-fA-F0-9]{64}$"
-
     },
     "IdentityObject": {
       "title": "Badge Identity Object",
@@ -82,7 +81,7 @@
         },
         "salt": {
           "description": "Defined by `salt` property of https://w3id.org/openbadges#IdentityObject",
-          "anyOf": [ 
+          "anyOf": [
             {
               "type": "string"
             },
@@ -108,13 +107,15 @@
         },
         "publicKey": {
           "type": "string",
-          "anyOf": [{
-            "type": "string",
-            "pattern": "^ecdsa-koblitz-pubkey:",
-            "description": "Issuer public key or blockchain address with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`. Example: `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`"
-          }, {
-            "type": "string"
-          }
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^ecdsa-koblitz-pubkey:",
+              "description": "Issuer public key or blockchain address with `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public address prefixed with `ecdsa-koblitz-pubkey:`. Example: `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`"
+            },
+            {
+              "type": "string"
+            }
           ],
           "description": "Blockcerts extension: the expected blockchain address for the signer of the transaction containing the merkle proof. In Blockcerts `publicKey`s are typically represented with a `<scheme>:` prefix. For Bitcoin transactions, this would be the issuer public Bitcoin address prefixed with `ecdsa-koblitz-pubkey:`; e.g. `ecdsa-koblitz-pubkey:14RZvYazz9H2DC2skBfpPVxax54g4yabxe`"
         }
@@ -242,6 +243,10 @@
             }
           ],
           "description": "Blockcerts extension: array of signature lines for display."
+        },
+        "income": {
+          "type": "string",
+          "description": "income test"
         }
       },
       "required": [
