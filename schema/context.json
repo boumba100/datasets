@@ -20,6 +20,9 @@
     "signatureLines": "bc:signatureLines",
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
     
+    "income": "bc:income",
+    
+    "subtitle": "bc:subtitle",
     
     "jobTitle": "schema:jobTitle",
     
