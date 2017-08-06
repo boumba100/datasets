@@ -30,6 +30,8 @@
     "fillingDate": "bc:fillingDate",
     "resProvince": "bc:resProvince",
     "address": "bc:address",
+    "line150": "bc:line150",
+    "line101": "bc:line101",
     
     
     "subtitle": "bc:subtitle",
