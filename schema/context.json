@@ -18,20 +18,7 @@
     
     "recipientProfile": "bc:recipientProfile",
     "signatureLines": "bc:signatureLines",
-    "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
-    
-    "ProofOfIncome": "https://github.com/boumba100#ProofOfIncome",
-    "address": "https://github.com/boumba100#address",
-    "taxYear": "https://github.com/boumba100#taxYear",
-    "taxProvince": "https://github.com/boumba100#taxProvince",
-    "fillingDate": "https://github.com/boumba100#fillingDate",
-    "dateOfAssessment": "https://github.com/boumba100#dateOfAssessment",
-    "sin": "https://github.com/boumba100#sin",
-    "resProvince": "https://github.com/boumba100#resProvince",
-    "birthDay": "https://github.com/boumba100#birthDay",
-    "martialStatus": "https://github.com/boumba100#martialStatus",
-    "line101": "https://github.com/boumba100#line101",
-    "line150": "https://github.com/boumba100#line150",
+    "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" }
     
     "subtitle": "bc:subtitle",
     
