@@ -12,7 +12,9 @@
     "martialStat",
     "fillingDate",
     "resProvince",
-    "address"
+    "address",
+    "line150",
+    "line101"
   ],
   "properties": {
     "description": {
@@ -47,6 +49,12 @@
     },
     "address": {
       "type": "string"
+    },
+    "line150": {
+      "type": "string"
+    },
+    "line101": {
+      "type":"string"
     }
   }
 }
