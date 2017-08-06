@@ -248,7 +248,6 @@
         "id",
         "name",
         "description",
-        "image",
         "issuer",
         "criteria"
       ]
