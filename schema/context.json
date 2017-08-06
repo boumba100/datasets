@@ -21,6 +21,7 @@
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
     
     "income": "bc:income",
+    "birthDay": "bc:birthDay",
     
     "subtitle": "bc:subtitle",
     
