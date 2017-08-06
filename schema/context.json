@@ -21,6 +21,16 @@
     "introductionUrl": { "@id": "bc:introductionUrl", "@type": "@id" },
     
     "income": "bc:income",
+    "birthDay": "bc:birthDay",
+    "taxYear": "bc:taxYear",
+    "taxProvince": "bc:taxProvince",
+    "assessmentDate": "bc:assessmentDate",
+    "sin": "bc:sin",
+    "martialStat": "bc:martialStat",
+    "fillingDate": "bc:fillingDate",
+    "resProvince": "bc:resProvince",
+    "address": "bc:address",
+    
     
     "subtitle": "bc:subtitle",
     
