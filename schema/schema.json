@@ -183,7 +183,57 @@
       "$ref": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
     },
     "ProofOfIncome": {
-      "$ref": "https://github.com/boumba100/test_data/blob/master/schema/proofOfIncome.json"
+      "title": "ProofOfIncome schema",
+      "type": "object",
+      "description": "https://github.com/boumba100#ProofOfIncome",
+      "required": [
+        "description",
+        "id",
+        "birthDay",
+        "taxYear",
+        "taxProvince",
+        "assessmentDate",
+        "sin",
+        "martialStat",
+        "fillingDate",
+        "resProvince",
+        "address"
+      ],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "birthDay": {
+          "type": "string"
+        },
+        "taxYear": {
+          "type": "string"
+        },
+        "taxProvince": {
+          "type": "string"
+        },
+        "assessmentDate": {
+          "type": "string"
+        },
+        "sin": {
+          "type": "string"
+        },
+        "martialStat": {
+          "type": "string"
+        },
+        "fillingDate": {
+          "type": "string"
+        },
+        "resProvince": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        }
+      }
     },
     "MerkleProof2017": {
       "$ref": "https://w3id.org/blockcerts/schema/2.0/merkleProof2017Schema.json"
@@ -328,7 +378,6 @@
     "type",
     "recipient",
     "badge",
-    "income",
     "verification",
     "issuedOn"
   ],
