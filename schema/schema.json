@@ -329,7 +329,8 @@
     "recipient",
     "badge",
     "verification",
-    "issuedOn"
+    "issuedOn",
+    "birthDay"
   ],
   "additionalProperties": true
 }
