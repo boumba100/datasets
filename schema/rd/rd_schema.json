@@ -180,16 +180,13 @@
       "$ref": "https://w3id.org/blockcerts/schema/2.0/signatureLineSchema.json"
     },
     "RecipientProfile": {
-      "$ref": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
-    },
-    "ProofOfIncome": {
-      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/proofOfIncome.json"
+      "$ref": "https://raw.githubusercontent.com/boumba100/test_data/master/schema/rd/rd_recipientSchema.json"
     },
     "MerkleProof2017": {
       "$ref": "https://w3id.org/blockcerts/schema/2.0/merkleProof2017Schema.json"
     },
-    "IncomeBadgeClass": {
-      "description": "https://github.com/boumba100#BadgeClass",
+    "RealIdBadge": {
+      "description": "https://github.com/boumba100#RealIdBadge",
       "type": "object",
       "properties": {
         "id": {
@@ -213,14 +210,6 @@
           "type": "string",
           "description": "Defined by `description` property of https://w3id.org/openbadges#BadgeClass"
         },
-        "image": {
-          "$ref": "#/definitions/ImageUri",
-          "description": "Defined by `image` property of https://w3id.org/openbadges#BadgeClass"
-        },
-        "criteria": {
-          "type": "object",
-          "description": "Defined by `criteria` property of https://w3id.org/openbadges#BadgeClass. This field is required in Open Badges. If migrating from an earlier version, a quick change is to reuse the `description` field"
-        },
         "issuer": {
           "$ref": "https://w3id.org/blockcerts/schema/2.0/issuerSchema.json",
           "description": "Defined by `issuer` property of https://w3id.org/openbadges#BadgeClass, with Blockcerts extensions for blockchain verification of badges."
@@ -232,24 +221,6 @@
         "tags": {
           "$ref": "#/definitions/TagsArray",
           "description": "Defined by `tags` property of https://w3id.org/openbadges#BadgeClass"
-        },
-        "signatureLines": {
-          "anyOf": [
-            {
-              "$ref": "#/definitions/SignatureLine"
-            },
-            {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/SignatureLine"
-              }
-            }
-          ],
-          "description": "Blockcerts extension: array of signature lines for display."
-        },
-        "income": {
-          "type": "string",
-          "description": "income test"
         }
       },
       "required": [
@@ -284,12 +255,8 @@
       "description": "Defined by `recipient` property of https://w3id.org/openbadges#Assertion, with Blockcerts extensions for recipient proof of ownership."
     },
     "badge": {
-      "$ref": "#/definitions/IncomeBadgeClass",
-      "description": "Defined by `badge` property of https://w3id.org/openbadges#Assertion, with Blockcerts extensions for (display) signature images."
-    },
-    "income": {
-      "$ref": "#/definitions/ProofOfIncome",
-      "description": "test proof of income document"
+      "$ref": "#/definitions/RealIdBadge",
+      "description": "real id badge"
     },
     "verification": {
       "$ref": "#/definitions/VerificationObject",
