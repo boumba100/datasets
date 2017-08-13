@@ -22,6 +22,9 @@
     
     
     "subtitle": "bc:subtitle",
+    "birthDay": "bc:birthDay",
+    "gender": "bc:gender",
+    "face": "bc:face",
     
     "jobTitle": "schema:jobTitle",
     
