@@ -20,6 +20,10 @@
       "type": "string",
       "description": "gender"
     },
+    "residenceAddress": {
+      "type": "string",
+      "description": "address"
+    },
     "signature": {
       "type": "string",
       "pattern": "data:image/png;base64,",
