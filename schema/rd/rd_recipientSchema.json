@@ -12,7 +12,7 @@
       "type": "string",
       "description": "Name of recipient, http://schema.org/name"
     },
-    "driverLincenseNumber": {
+    "driverLicenseNumber": {
       "type": "string",
       "description": "id number"
     },
