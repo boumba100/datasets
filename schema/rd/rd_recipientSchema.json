@@ -12,6 +12,10 @@
       "type": "string",
       "description": "Name of recipient, http://schema.org/name"
     },
+    "idNumber": {
+      "type": "string",
+      "description": "id number"
+    },
     "birthDay": {
       "type": "string",
       "description": "birthDay"
