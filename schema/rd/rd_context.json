@@ -25,6 +25,7 @@
     "birthDay": "bc:birthDay",
     "gender": "bc:gender",
     "face": "bc:face",
+    "residenceAddress": "bc:residenceAddress",
     
     "jobTitle": "schema:jobTitle",
     
