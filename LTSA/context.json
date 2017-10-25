@@ -1,0 +1,56 @@
+{
+"ltsa" : {
+  "title": "LTSA",
+  "type": "object",
+  "@id": "https://github.com/boumba100#LTSA",
+  "required": [
+    "title",
+    "titleState",
+    "certNumber",
+    "issuerPubKey",
+    "address1",
+    "address2",
+    "address3",
+    "recipient"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "titleState": {
+      "type": "string"
+    },
+    "certNumber": {
+      "type": "string"
+    },
+    "issuerPubKey": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "address3": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    }
+  }
+},
+
+
+"title" : "ltsa:title",
+"titleState" : "ltsa:titleState",
+"certNumber" : "ltsa:certNumber",
+"issuerPubKey" : "ltsa:issuerPubKey",
+"address1" : "ltsa:address1",
+"address2" : "ltsa:address2",
+"address3" : "ltsa:address3",
+"recipient" : "ltsa:recipient"
+
+
+
+}
