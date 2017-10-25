@@ -1,4 +1,9 @@
 {
+  
+"id": "@id",
+"type": "@type",
+"schema": "http://schema.org/",
+  
 "ltsa" : {
   "title": "LTSA",
   "type": "object",
