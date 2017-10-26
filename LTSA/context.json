@@ -5,7 +5,7 @@
 "schema": "http://schema.org/",
   
 "ltsa" : {
-  "title": "LTSA",
+  "title": "ltsa",
   "type": "object",
   "@id": "https://github.com/boumba100#LTSA",
   "required": [
