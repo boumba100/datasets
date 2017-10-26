@@ -54,7 +54,7 @@
 "address1" : "ltsa:address1",
 "address2" : "ltsa:address2",
 "address3" : "ltsa:address3",
-"recipient" : "ltsa:recipient"
+"registeredOwner" : "ltsa:registeredOwner"
 
 
 
