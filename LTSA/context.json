@@ -51,8 +51,7 @@
     "anchors": "cp:anchors",
     "sourceId": "cp:sourceId",
     "right": "cp:right",
-    "left": "cp:left"
-  }
+    "left": "cp:left",
     
     "ltsa": {
       "title": "ltsa",
