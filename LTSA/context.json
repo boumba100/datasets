@@ -39,7 +39,7 @@
         "address3": {
           "type": "string"
         },
-        "registered": {
+        "registeredOwner": {
           "type": "string"
         }
       }
