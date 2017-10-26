@@ -5,7 +5,7 @@
 "schema": "http://schema.org/",
   
 "ltsa" : {
-  "title": "ltsa",
+  "title": "LTSA",
   "type": "object",
   "@id": "https://github.com/boumba100#LTSA",
   "required": [
@@ -16,7 +16,7 @@
     "address1",
     "address2",
     "address3",
-    "recipient"
+    "registeredOwner"
   ],
   "properties": {
     "title": {
@@ -40,7 +40,7 @@
     "address3": {
       "type": "string"
     },
-    "recipient": {
+    "registered": {
       "type": "string"
     }
   }
