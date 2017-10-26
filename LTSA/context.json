@@ -82,7 +82,7 @@
         "registeredOwner": {
           "type": "string"
         },
-        "registrationNumber" {
+        "registrationNumber": {
           "type": "string" 
         }
       }
