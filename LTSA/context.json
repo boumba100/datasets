@@ -91,7 +91,7 @@
     "address1": "ltsa:address1",
     "address2": "ltsa:address2",
     "address3": "ltsa:address3",
-    "registeredOwner": "ltsa:registeredOwner"
+    "registeredOwner": "ltsa:registeredOwner",
 
     "BTCOpReturn": "cp:BTCOpReturn",
     "targetHash": "cp:targetHash",
