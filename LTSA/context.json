@@ -108,7 +108,7 @@
             "type": "string"
           }
         }
-      }
+      },
     
     "title": "ltsa:title",
     "titleState": "ltsa:titleState",
