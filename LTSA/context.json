@@ -83,33 +83,6 @@
         }
       }
     },
-    
-    "badge" : {
-        "title": "LTSA",
-        "type": "object",
-        "@id": "https://github.com/boumba100#badge",
-        "required": [
-      "revocationList",
-      "id",
-      "url",
-      "name"
-      ],
-        "properties": {
-          "revocationList": {
-            "type": "string"
-          },
-          "id": {
-            "type": "string"
-          },
-          "url": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        }
-      },
-    
     "title": "ltsa:title",
     "titleState": "ltsa:titleState",
     "certNumber": "ltsa:certNumber",
