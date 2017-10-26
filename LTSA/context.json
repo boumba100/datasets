@@ -54,7 +54,8 @@
         "address1",
         "address2",
         "address3",
-        "registeredOwner"
+        "registeredOwner",
+        "registrationNumber"
       ],
       "properties": {
         "title": {
@@ -80,6 +81,9 @@
         },
         "registeredOwner": {
           "type": "string"
+        },
+        "registrationNumber" {
+          "type": "string" 
         }
       }
     },
