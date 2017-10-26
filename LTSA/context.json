@@ -2,14 +2,12 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    
     "bc": "https://w3id.org/blockcerts#",
     "obi": "https://w3id.org/openbadges#",
     "cp": "https://w3id.org/chainpoint#",
     "schema": "http://schema.org/",
     "sec": "https://w3id.org/security#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    
     
     "MerkleProof2017": "sec:MerkleProof2017",
     
@@ -43,15 +41,6 @@
       "@id": "sec:publicKey",
       "@type": "@id"
     },
-
-    "BTCOpReturn": "cp:BTCOpReturn",
-    "targetHash": "cp:targetHash",
-    "merkleRoot": "cp:merkleRoot",
-    "proof": "cp:proof",
-    "anchors": "cp:anchors",
-    "sourceId": "cp:sourceId",
-    "right": "cp:right",
-    "left": "cp:left",
     
     "ltsa": {
       "title": "ltsa",
@@ -94,6 +83,7 @@
         }
       }
     },
+    
     "title": "ltsa:title",
     "titleState": "ltsa:titleState",
     "certNumber": "ltsa:certNumber",
@@ -102,8 +92,17 @@
     "address2": "ltsa:address2",
     "address3": "ltsa:address3",
     "registeredOwner": "ltsa:registeredOwner"
+
+    "BTCOpReturn": "cp:BTCOpReturn",
+    "targetHash": "cp:targetHash",
+    "merkleRoot": "cp:merkleRoot",
+    "proof": "cp:proof",
+    "anchors": "cp:anchors",
+    "sourceId": "cp:sourceId",
+    "right": "cp:right",
+    "left": "cp:left"
   },
-   "obi:validation": [
+  "obi:validation": [
     {
       "obi:validatesType": "RecipientProfile",
       "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
