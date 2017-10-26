@@ -102,5 +102,20 @@
     "address2": "ltsa:address2",
     "address3": "ltsa:address3",
     "registeredOwner": "ltsa:registeredOwner"
-  }
+  },
+   "obi:validation": [
+    {
+      "obi:validatesType": "RecipientProfile",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/recipientSchema.json"
+    },
+    {
+      "obi:validatesType": "SignatureLine",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/signatureLineSchema.json"
+    },
+    {
+      "obi:validatesType": "MerkleProof2017",
+      "obi:validationSchema": "https://w3id.org/blockcerts/schema/2.0/merkleProof2017Schema.json"
+    }
+  ]
+}
 }
