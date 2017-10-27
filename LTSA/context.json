@@ -100,7 +100,7 @@
     "address3": "ltsa:address3",
     "registeredOwner": "ltsa:registeredOwner",
     "registrationNumber": "ltsa:registrationNumber",
-    "organizationNumber": "ltsa:organizationNumber",
+    "businessNumber": "ltsa:organizationNumber",
 
     "BTCOpReturn": "cp:BTCOpReturn",
     "targetHash": "cp:targetHash",
