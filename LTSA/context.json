@@ -55,7 +55,8 @@
         "address2",
         "address3",
         "registeredOwner",
-        "registrationNumber"
+        "registrationNumber",
+        "organizationNumber"
       ],
       "properties": {
         "title": {
@@ -84,6 +85,9 @@
         },
         "registrationNumber": {
           "type": "string" 
+        },
+        "organizationNumber" : {
+         "type": "string" 
         }
       }
     },
@@ -96,6 +100,7 @@
     "address3": "ltsa:address3",
     "registeredOwner": "ltsa:registeredOwner",
     "registrationNumber": "ltsa:registrationNumber",
+    "organizationNumber": "ltsa:organizationNumber",
 
     "BTCOpReturn": "cp:BTCOpReturn",
     "targetHash": "cp:targetHash",
