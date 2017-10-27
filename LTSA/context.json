@@ -56,7 +56,7 @@
         "address3",
         "registeredOwner",
         "registrationNumber",
-        "organizationNumber"
+        "businessNumber"
       ],
       "properties": {
         "title": {
@@ -86,7 +86,7 @@
         "registrationNumber": {
           "type": "string" 
         },
-        "organizationNumber" : {
+        "businessNumber" : {
          "type": "string" 
         }
       }
