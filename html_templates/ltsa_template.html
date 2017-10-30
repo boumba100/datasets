@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <center>
+         <h3 style="line-height: 0.5;">@$title</h3>
+         <h2 style="line-height: 0.5;">
+         @$titleState</h1>
+         <h3 style="line-height: 0.5;">Certificate Number: @$certNumber</h3>
+      </center>
+      <p style="margin-top: 1em;margin-left: 0.5em;line-height: 1.2;">
+         @$registeredOwner<br />
+         @$address1 - @$address2<br />
+         @$address3<br />
+         <br / >
+         This State of Title Certificate can be verified using the BlockCerts specification.
+         <br />
+         </br />
+         @$description </br>
+         <strong>Issued on - </strong> @$issuedOn
+      </p>
+      <h4 style="margin-left: 0.5em;line-height: 0.1;">
+         Recipient
+      </h4>
+      <p style="margin-left: 1em;word-wrap: break-word;
+         width: 95%;">
+         <strong>Name - </strong> @$recipientName <br/>
+         <strong>Business Number - </strong> @$businessNumber </br>
+         <strong>Public Key - </strong> @$recipientPublicKey
+      </p>
+      <img style="margin-left: 0.5em;" src="https://raw.githubusercontent.com/boumba100/test_data/master/LTSA/images/bc_land_logo.png"/>
+   </body>
+</html>
+<!--context-!$^@!{
+   "$title": "ltsa.title",
+   "$titleState": "ltsa.titleState",
+   "$certNumber": "ltsa.certNumber",
+   "$registeredOwner": "ltsa.registeredOwner",
+   "$address1": "ltsa.address1",
+   "$address2": "ltsa.address2",
+   "$address3": "ltsa.address3",
+   "$description": "ltsa.description",
+   "$recipientName": "recipientProfile.name",
+   "$businessNumber": "recipientProfile.businessNumber",
+   "$recipientPublicKey": "recipientProfile.publicKey",
+   "$issuedOn": "issuedOn"
+   }!@$-->
