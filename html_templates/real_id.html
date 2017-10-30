@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   </head>
+   <body>
+      <h1>Real ID</h1>
+      <div>
+         <img style="float: left;padding-right:2%" src="@$recipient_face" width="85" height="140"/>
+         <p>
+            <b>Name</b><br>
+            @$recipient_name<br>
+            <b>Date of birth</b><br>
+            @$recipient_birthDay<br>
+            <b>Gender</b><br>
+            @$recipient_gender<br>
+            <b>Driver license number</b><br>
+            @$recipient_driverLicenseNumber<br>
+            <b>Residence address</b><br>
+            @$recipient_ResidenceAddress 
+         </p>
+      </div>
+      <img style="float: left;padding-right:2%" src="@$recipient_signature" width="70" height="40"/>
+      <br>
+      <br>
+      <div>
+         <img style="float: left;padding-right:2%;" src="@$badge_img" width="150" height="100"/>
+         <p style=word-wrap: "break-word;width: 120px;">
+         <b>Name</b><br>
+         @$issuer_name<br><br><br><br><br>
+         <b>ID</b><br>
+         <a href="url"/>@$issuer_id</a><br>
+         <b>public_key</b><br>
+         @$issuer_publicKey<br>
+         <b>Transaction address</b><br>
+         @$transaction_address<br>
+      </div>
+   </body>
+</html>
+<!--context-!$^@!{
+   "$recipient_face": "recipientProfile.face",
+   "$recipient_name": "recipientProfile.name",
+   "$recipient_birthDay": "recipientProfile.birthDay",
+   "$recipient_gender": "recipientProfile.gender",
+   "$recipient_driverLicenseNumber": "recipientProfile.driverLicenseNumber",
+   "$recipient_ResidenceAddress": "recipientProfile.residenceAddress",
+   "$recipient_signature": "recipientProfile.signature",
+   "$badge_img": "badge.image",
+   "$issuer_name": "badge.issuer.name",
+   "$issuer_id": "badge.issuer.id",
+   "$issuer_publicKey": "verification.publicKey",
+   "$transaction_address": "signature.anchors[0].sourceId"
+   
+   }!@$-->
