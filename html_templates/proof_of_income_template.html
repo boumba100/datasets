@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+      <div id="body">
+         <h1>@$description</h1>
+         <h2>Issuer</h2>
+         <p>
+            Name: @$issuer_name<br>
+            Id: <a href="url">@$issuer_id</a><br>
+            Email: @$issuer_email<br>
+            Web site: <a href="url">@$issuer_url </a><br>
+            Public key : @$issuer_pubkey<br>
+            Transaction address : @$transaction_address
+         </p>
+         <h2>Recipient</h2>
+         <p>
+            Name: @$recipient_name<br>
+            Date of birth: @$birthDay<br>
+            Tax year: @$taxYear<br>
+            Taxing province: @$taxProvince<br>
+            Assessment date: @$assessmentDate<br>
+            Social insurance number: @$sin<br>
+            Maritial status: @$maritialStatus<br>
+            Province of residence: @$resProvince<br>
+            Address: @$address<br>
+            Line 101: @$line101<br>
+            Line 150: @$line150<br>
+         </p>
+         <p></p>
+      </div>
+   </body>
+</html>
+<style type="text/css">
+   .body {
+   height: 100%;
+   width: 100%;
+   }
+</style>
+<!--context-!$^@!{
+   "$description": "badge.income.description",
+   "$issuer_name": "badge.issuer.name",
+   "$issuer_id": "badge.issuer.id",
+   "$issuer_email": "badge.issuer.email",
+   "$issuer_url": "badge.issuer.url",
+   "$issuer_pubkey": "verification.publicKey",
+   "$transaction_address": "signature.anchors[0].sourceId",
+   "$recipient_name": "recipientProfile.name",
+   "$birthDay": "badge.income.birthDay",
+   "$taxYear": "badge.income.birthDay",
+   "$taxProvince": "badge.income.taxProvince",
+   "$assessmentDate": "badge.income.assessmentDate",
+   "$sin": "badge.income.sin",
+   "$maritialStatus": "badge.income.martialStat",
+   "$resProvince": "badge.income.resProvince",
+   "$address": "badge.income.address",
+   "$line101": "badge.income.line101",
+   "$line150": "badge.income.line150"
+   }!@$-->
